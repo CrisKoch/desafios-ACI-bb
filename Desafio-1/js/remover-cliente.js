@@ -9,7 +9,7 @@ tabela.addEventListener("dblclick", function(event) {
     setTimeout(function() {
         event.target.parentNode.remove();
         var total = document.getElementById("#totalizador");
-        //continuar
+        //continuar funcao para atualizar renda total
         //total.textContent(Number(total-1));
         
 
